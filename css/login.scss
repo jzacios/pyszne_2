@@ -1,0 +1,37 @@
+body{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    .wrapper{
+        width: 100vw;
+        height: 100vh;
+        background-color: lightsalmon;
+    }
+    .wrapper_login{
+        box-sizing: border-box;
+        position: absolute;
+        top: calc(40% - 12.5vh);
+        left: calc(50% - 15vw);
+        width: 30vw;
+        height: 25vh;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .wrapper_login_login, .wrapper_login_password, .wrapper_login_submit{
+            display: block;
+
+        }
+        .wrapper_login_login{
+            margin-top: 10%;
+        }
+        .wrapper_login_submit{
+            margin-top: 10%;
+            display: inline-block;
+        }
+        
+    }
+}
