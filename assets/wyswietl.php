@@ -30,5 +30,3 @@ while($shift = $shifts->fetch()){
     $i++;
 }
 echo "</table>";
-
-xd
