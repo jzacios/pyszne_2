@@ -42,6 +42,7 @@
                 </form>
             </section>
             <script src="skrypty/take.js"></script>
+            <script src="skrypty/FormAutoSubmit.js"></script>
         </section>
     </body>
     </html>
