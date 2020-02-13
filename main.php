@@ -33,16 +33,16 @@
                         require_once("assets/wyswietl.php");
                         ?>
                 </section>
-            </section>  
-            <section class="asset">
-                <section class="asset_show">
-                    <?php
-                        require_once("assets/NiewidzialnyForm.php");
-                        ?>
-                </section>
-            </section>    
-                        <script src="skrypty/take.js"></script>
-        </section> 
+            </section>       
+                        
+            <section>
+                <form method="POST" action="">
+                    <input type="text" name="id" id="form" value="" >
+                    <p name="yhym"></p>
+                </form>
+            </section>
+            <script src="skrypty/take.js"></script>
+        </section>
     </body>
     </html>
 
