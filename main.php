@@ -36,13 +36,12 @@
             </section>       
                         
             <section>
-                <form method="POST" action="">
+                <form method="POST" action="skrypty/take.php" id="form_submit" style="display: none">
                     <input type="text" name="id" id="form" value="" >
                     <p name="yhym"></p>
                 </form>
             </section>
             <script src="skrypty/take.js"></script>
-            <script src="skrypty/FormAutoSubmit.js"></script>
         </section>
     </body>
     </html>
