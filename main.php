@@ -33,8 +33,14 @@
                         require_once("assets/wyswietl.php");
                         ?>
                 </section>
-            </section>       
-                        
+            </section>  
+            <section class="asset">
+                <section class="asset_show">
+                    <?php
+                        require_once("assets/DodanePrzezCb.php");
+                        ?>
+                </section>
+            </section>                        
             <section>
                 <form method="POST" action="skrypty/take.php" id="form_submit" style="display: none">
                     <input type="text" name="id" id="form" value="" >
