@@ -1,4 +1,5 @@
 <?php
+include("skrypty/config.php");
 session_start();
 if(isset($_SESSION['login_status'])){
     switch($_SESSION['login_status']){
