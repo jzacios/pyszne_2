@@ -6,6 +6,9 @@ $shifts = $conn->query("SELECT DATE, Start_Time,End_Time,Shift_id,User_ID, timed
 
 echo "<table>";
 $i = 1;
+echo '
+Zmiany dodane przez Ciebie:;'
+
 while($shift = $shifts->fetch()){
     echo "<tr class='row' id=".$shift['Shift_id'].">";
         echo "<td class='column'>";
@@ -22,9 +25,6 @@ while($shift = $shifts->fetch()){
         echo "</td>";
         echo "<td class='column'>";
             echo $shift['czas'];
-        echo "</td>";
-        echo "<td class='column'>";
-            echo "<button class='take' onclick='take(".$shift['Shift_id'].")'>Zabierz</button>";
         echo "</td>";
     echo "</tr>";
     $i++;
