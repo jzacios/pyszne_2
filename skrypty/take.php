@@ -1,6 +1,6 @@
 <?php
 
-include("../skrypty/db.php");
+
 session_start();
 $id_zabieram = $_SESSION['user_id'];
 $id_zmiany = $_POST['id'];
