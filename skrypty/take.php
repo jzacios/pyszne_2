@@ -10,7 +10,7 @@ $id_zmiany = $_POST['id'];
 
 $sql = ("SELECT User_ID FROM hours where Shift_id = ?");
 $stmt = $conn->prepare($sql);
-$id_oddaje = $stmt->execute([$id_zmiany])->fetch();
+$id_oddaje = $stmt->query([$id_zmiany])->fetch();
 
 session_start();
 $id_zabieram = $_SESSION['user_id'];
