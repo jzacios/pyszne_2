@@ -20,4 +20,4 @@ $id_oddaje;
 $sql = ("INSERT INTO `Zmiany_zmienione` (`Id_zmiany`, `Id_zabiera`, `Id_oddaje`)
 VALUES (?,?,?)");
 $stmt= $conn->prepare($sql);
-$stmt->execute([$id_zmiany, $id_zabieram, $id_oddaje]);
+$stmt->execute([$id_zmiany, $id_zabieram, $id_oddaje['User_ID']]);
