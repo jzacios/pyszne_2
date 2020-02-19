@@ -15,6 +15,7 @@
                     <span class="wrapper_login_login">Login: <input type="text" id="login" name="login"></span><br>
                     <span class="wrapper_login_password">hasło: <input type="text" id="haslo" name="password"></span>
                     <span class="wrapper_login_submit"><input type="submit" value="zaloguj"></span>
+                    <a href="skrypty/okurwa.php"><span class="wrapper_login_submit"><input type="button" value="zarejestruj"></span></a>
                     <?php
                         if(isset($_SESSION['login_status'])){
                         echo($_SESSION['login_status']);
@@ -24,7 +25,5 @@
                 </section>
             </form>
         </section> 
-
     </body>
     </html>
-

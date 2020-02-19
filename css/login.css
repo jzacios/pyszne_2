@@ -37,6 +37,7 @@ body .wrapper_login {
           align-items: center;
 }
 
+
 body .wrapper_login .wrapper_login_login, body .wrapper_login .wrapper_login_password, body .wrapper_login .wrapper_login_submit {
   display: block;
 }
