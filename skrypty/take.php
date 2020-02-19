@@ -22,6 +22,6 @@ VALUES (?,?,?)");
 $stmt= $conn->prepare($sql);
 $stmt->execute([$id_zmiany, $id_zabieram, $id_oddaje['User_ID']]);
 
-$sql = ("UPDATE hours set oddana = 1 where Shif_ID = ?");
+$sql = ("UPDATE hours set oddana = 1 where Shift_id = ?");
 $stmt = $conn->prepare($sql);
 $stmt->execute([$id_zmiany]);
