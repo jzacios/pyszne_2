@@ -18,6 +18,6 @@ $id_zabieram = $_SESSION['user_id'];
 $id_oddaje;
 
 $sql = ("INSERT INTO `Zmiany_zmienione` (`Id_zmiany`, `Id_zabiera`, `Id_oddaje`)
-VALUES (?,?,3)");
+VALUES (?,?,?)");
 $stmt= $conn->prepare($sql);
-$stmt->execute([$id_zmiany, $id_zabieram]);
+$stmt->execute([$id_zmiany, $id_zabieram, $id_oddaje]);
