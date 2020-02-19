@@ -3,8 +3,8 @@ body{
     padding: 0;
     box-sizing: border-box;
         .wrapper{
-            width: 100vw;
-            min-height: 100vh;
+            width: max-content;
+            min-height: 100%;
             background-color: lightsalmon;
             display: flex;
             flex-direction: column;

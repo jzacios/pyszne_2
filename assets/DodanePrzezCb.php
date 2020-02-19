@@ -1,6 +1,6 @@
 <?php
 require_once("skrypty/db.php");
-$shifts = $conn->query("SELECT DATE, Start_Time,End_Time,Shift_id,User_ID, timediff(End_Time,Start_Time) as czas FROM hours WHERE Date >= '".date('Y-m-d')."' && User_ID='".$user_id."'");
+$shifts = $conn->query("SELECT DATE, Start_Time,End_Time,Shift_id,User_ID, timediff(End_Time,Start_Time) as czas, oddana FROM hours WHERE Date >= '".date('Y-m-d')."' && User_ID='".$user_id."'");
 
 
 
@@ -25,6 +25,13 @@ while($shift = $shifts->fetch()){
         echo "</td>";
         echo "<td class='column'>";
             echo $shift['czas'];
+        echo "</td>";
+        echo "<td class='column'>";
+            if($shift['oddana']){
+                echo "zabrana";
+            }else{
+                echo "nie zabrana";
+            }
         echo "</td>";
     echo "</tr>";
     $i++;
