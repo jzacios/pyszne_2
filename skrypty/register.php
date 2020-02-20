@@ -1,16 +1,14 @@
 <?php
-    
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-
-
-    if(isset($_POST['user']) && isset($_POST['pass'])){
-        require_once("db.php");
+        require_once('../skrypty/db.php');
         session_start();
-        $_SESSION['login'] = $_POST['user'];
-        $_SESSION['password'] = $_POST['pass'];
+    if(isset($_POST['user']) && isset($_POST['password'])){
+
+        $log = $_POST['user'];
+        $pass = $_POST['password'];
     }
-    $user = $conn->query("INSERT INTO users values ("",'".$_SESSION['login']."','".$_SESSION['password']."',""")->fetch();
+    $sql = ("INSERT INTO `users` (`ID`,`Login`,`Password`,`Privilege`) values (NULL,?,?,1)");
+    $stmt = $conn->prepare($sql);
+    $stmt->execute([$log, $pass]);
+    header("Location: ../index.php");
 ?>
 
