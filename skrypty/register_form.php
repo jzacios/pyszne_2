@@ -9,7 +9,7 @@
     </head>
     <body>
         <section class="wrapper">
-            <form action="skrypty/register.php" method="post">
+            <form action="register.php" method="post">
                 <section class="wrapper_login">
                     <a>Zarejestruj!</a>
                     <span class="wrapper_register_login">Login: <input type="text" id="user" name="user"></span><br>
