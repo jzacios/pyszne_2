@@ -7,7 +7,11 @@ if(isset($_SESSION['login_status'])){
             require_once("skrypty/logowanie.php");
             break;
         case 10:
-            header("Location: main.php");
+            if($_SESSION['privilege'] == 2){
+                header("Location: main_k.php");
+            }else{
+                header("Location: main.php");
+            }
             break;
         default:
             require_once("skrypty/logowanie.php");
