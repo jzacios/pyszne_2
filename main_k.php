@@ -16,15 +16,20 @@
                         require_once("assets/user.php");
                         ?>
                 </section>
-            </section> 
+            </section>
             <section class="asset">
                 <section class="asset_show">
                     <?php
                         include("assets/wyswietl_zmienione.php");
                     ?>
                 </section>
-            </section> 
+            </section>
         </section>
+            <form method="POST" action="skrypty/archiwizuj.php" id="form_submit" style="display: none">
+                <input type="text" name="id" id="form" value="" style="display: none">
+                <p name="yhym"></p>
+            </form>
+        <script src="skrypty/archiwizuj.js"></script>
     </body>
     </html>
 
