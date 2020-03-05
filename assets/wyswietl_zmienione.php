@@ -36,7 +36,7 @@
                             echo "<td class='column'>".$user['Name']." ".$user['Surname']."</td>";
                             $user = $conn->query("SELECT Name, Surname FROM workers WHERE ID='".$shift['Id_oddaje']."'")->fetch();
                             echo "<td class='column'>".$user['Name']." ".$user['Surname']."</td>";
-                            echo "<td class='column'><button onclick='arhiwizuj(".$shift['Id_zmiany'].")'>Archiwizuj</button></td>";
+                            echo "<td class='column'><button onclick='archiwizuj(".$shift['Id_zmiany'].")'>Archiwizuj</button></td>";
                         echo "</tr>";
                     }
                     echo "<table>";
