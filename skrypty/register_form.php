@@ -13,7 +13,7 @@
                 <section class="wrapper_login">
                     <a>Zarejestruj!</a>
                     <span class="wrapper_register_login">Login: <input type="text" id="user" name="user"></span><br>
-                    <span class="wrapper_register_password">hasło: <input type="text" id="pass" name="password"></span>
+                    <span class="wrapper_register_password">hasło: <input type="password" id="pass" name="password"></span>
                     <span class="wrapper_register_name">Imie: <input type="text" id="name" name="name"></span><br>
                     <span class="wrapper_register_surname">Nazwisko: <input type="text" id="surname" name="surname"></span>
                     <Br><span class="wrapper_register_submit"><input type="submit" value="Zarejestruj!"></span>

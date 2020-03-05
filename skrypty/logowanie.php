@@ -13,7 +13,7 @@
             <form action="skrypty/login.php" method="post">
                 <section class="wrapper_login">
                     <span class="wrapper_login_login">Login: <input type="text" id="login" name="login"></span><br>
-                    <span class="wrapper_login_password">hasło: <input type="text" id="haslo" name="password"></span>
+                    <span class="wrapper_login_password">hasło: <input type="password" id="haslo" name="password"></span>
                     <span class="wrapper_login_submit"><input type="submit" value="zaloguj"></span>
                     <a href="skrypty/register_form.php"><span class="wrapper_login_submit"><input type="button" value="zarejestruj"></span></a>
                     <?php
