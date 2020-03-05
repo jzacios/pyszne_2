@@ -17,7 +17,7 @@
         if($user['Password'] == $_SESSION['password']){
             $_SESSION['user_id'] = $user['ID'];
             $_SESSION['login_status'] = 10;
-            $_SESSION['privilege'] = 2;
+            $_SESSION['privilege'] = $user['Privilege'];
             header("Location: ../index.php");
 
         }else if($user['Password'] != $_SESSION['password']){
