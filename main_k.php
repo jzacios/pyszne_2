@@ -43,9 +43,9 @@
                         echo "<tr class='row'>";
                             echo "<td class='column'>".$shift['Id_zmiany']."</td>";
                             $hour = $conn->query("SELECT Date, Start_Time, End_Time FROM hours WHERE Shift_id='".$shift['Id_zmiany']."'")->fetch();
-                            echo "<td class='column'>".$user['Date']."</td>";
-                            echo "<td class='column'>".$user['Start_Time']."</td>";
-                            echo "<td class='column'>".$user['End_Time']."</td>";
+                            echo "<td class='column'>".$hour['Date']."</td>";
+                            echo "<td class='column'>".$hour['Start_Time']."</td>";
+                            echo "<td class='column'>".$hour['End_Time']."</td>";
                             $user = $conn->query("SELECT Name, Surname FROM workers WHERE ID='".$shift['Id_zabiera']."'")->fetch();
                             echo "<td class='column'>".$user['Name']." ".$user['Surname']."</td>";
                             $user = $conn->query("SELECT Name, Surname FROM workers WHERE ID='".$shift['Id_oddaje']."'")->fetch();
