@@ -25,7 +25,7 @@
                 </section>
             </section>
         </section>
-            <form method="POST" action="skrypty/take.php" id="form_submit" style="display: none">
+            <form method="POST" action="skrypty/archiwizuj.php" id="form_submit" style="display: none">
                 <input type="text" name="id" id="form" value="" style="display: none">
                 <p name="yhym"></p>
             </form>
