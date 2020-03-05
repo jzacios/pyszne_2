@@ -29,7 +29,12 @@
                 <input type="text" name="id" id="form" value="" style="display: none">
                 <p name="yhym"></p>
             </form>
+            <form method="POST" action="skrypty/usun.php" id="form_submit_usun" style="display: none">
+                <input type="text" name="id" id="form_usun" value="" style="display: none">
+                <p name="yhym"></p>
+            </form>
         <script src="skrypty/archiwizuj.js"></script>
+        <script src="skrypty/usun.js"></script>
     </body>
     </html>
 
