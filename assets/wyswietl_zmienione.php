@@ -24,6 +24,9 @@
                          echo "<th class='column'>";
                             echo "Archiwizuj";
                          echo "</th>"; 
+                         echo "<th class='column'>";
+                            echo "Usuń";
+                         echo "</th>"; 
                     echo "</tr>";
                     while($shift = $shifts->fetch()){
                         echo "<tr class='row'>";
@@ -37,6 +40,7 @@
                             $user = $conn->query("SELECT Name, Surname FROM workers WHERE ID='".$shift['Id_oddaje']."'")->fetch();
                             echo "<td class='column'>".$user['Name']." ".$user['Surname']."</td>";
                             echo "<td class='column'><button onclick='archiwizuj(".$shift['Id_zmiany'].")'>Archiwizuj</button></td>";
+                            echo "<td class='column'><button onclick='usun(".$shift['Id_zmiany'].")'>Usuń</button></td>";
                         echo "</tr>";
                     }
                     echo "<table>";
