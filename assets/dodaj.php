@@ -15,9 +15,12 @@
 
         ?>
         <script>
-            var data = document.getElementById("data");
-            var d = new Date(year - month - day);
-            data.min = d;
+            function data(){
+                alert("work");
+                var data = document.getElementById("data");
+                var d = new Date(year - month - day);
+                data.min = d;
+            }
 
         </script>
     </form>
