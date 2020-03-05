@@ -6,7 +6,7 @@ include("db.php");
 
 $id_zmiany = $_POST['id'];
 
-$sql = ("UPDATE `hours` SET oddana = 0 WHERE Id_zmiany = ?");
+$sql = ("UPDATE `hours` SET oddana = 0 WHERE Shift_id = ?");
 $stmt= $conn->prepare($sql);
 $stmt->execute([$id_zmiany]);
 
