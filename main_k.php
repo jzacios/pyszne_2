@@ -24,7 +24,10 @@
                             echo "Data";
                          echo "</th>";
                          echo "<th class='column'>";
-                            echo "Godzina";
+                            echo "Godzina p";
+                         echo "</th>";
+                         echo "<th class='column'>";
+                            echo "Godzina k";
                          echo "</th>";
                          echo "<th class='column'>";
                             echo "Zabrał";
