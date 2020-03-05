@@ -11,6 +11,13 @@
     <body>
         <section class="wrapper">
             <section class="asset">
+                <section class="asset_add">
+                    <?php
+                        require_once("assets/user.php");
+                        ?>
+                </section>
+            </section> 
+            <section class="asset">
                 <section class="asset_show">
                     <?php
                         include("assets/wyswietl_zmienione.php");
