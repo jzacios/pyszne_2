@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="css/main.css">
         <title>Zmiany</title>
     </head>
-    <body onload="data()">
+    <body>
         <section class="wrapper">
             <section class="asset">
                 <section class="asset_add">
