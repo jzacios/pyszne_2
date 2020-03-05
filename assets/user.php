@@ -1,5 +1,6 @@
 <?php
 require_once("skrypty/db.php");
+session_start();
 $user_id = $_SESSION['user_id'];
 $user = $conn->query("SELECT name,surname from workers where id = '".$user_id."'")->fetch();
 
