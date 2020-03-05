@@ -47,15 +47,6 @@
                     <p name="yhym"></p>
                 </form>
             </section>
-            <script>
-            function data(){
-                alert("work");
-                var data = document.getElementById("data");
-                var d = new Date(year - month - day);
-                data.min = d;
-            }
-
-            </script>
             <script src="skrypty/take.js"></script>
 
         </section>
