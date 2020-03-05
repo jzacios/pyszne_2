@@ -13,11 +13,22 @@
             <form action="register.php" method="post">
                 <section class="wrapper_login">
                     <a>Zarejestruj!</a>
-                    <span><i class="fa fa-user-o"></i>
-                    <span class="wrapper_register_login">Login: <input type="text" id="user" name="user"></span></span>
-                    <span class="wrapper_register_password">hasło: <input type="password" id="pass" name="password"></span>
-                    <span class="wrapper_register_name">Imie: <input type="text" id="name" name="name"></span>
-                    <span class="wrapper_register_surname">Nazwisko: <input type="text" id="surname" name="surname"></span>
+                        <div class="input-box">
+                            <span><i class="fa fa-user-o"></i></span>
+                            <input class="" type="text" placeholder="Login" required id="user" name="user">
+                        </div>
+                        <div class="input-box">
+                            <span><i class="fa fa-user-o"></i></span>
+                            <input class="" type="password" placeholder="Password" required id="pass" name="password">
+                        </div>
+                        <div class="input-box">
+                            <span><i class="fa fa-user-o"></i></span>
+                            <input class="" type="text" placeholder="Name" required id="name" name="name">
+                        </div>
+                        <div class="input-box">
+                            <span><i class="fa fa-user-o"></i></span>
+                            <input class="" type="text" placeholder="Surname" required id="surname" name="surname">
+                        </div>
                     <Br><span class="wrapper_register_submit"><input type="submit" value="Zarejestruj!"></span>
                 </section>
             </form>

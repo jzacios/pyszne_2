@@ -6,8 +6,10 @@ body {
 }
 
 body .wrapper {
-  width: 100vw;
-  min-height: 100vh;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  min-height: 100%;
   background-color: lightsalmon;
   display: -webkit-box;
   display: -ms-flexbox;
