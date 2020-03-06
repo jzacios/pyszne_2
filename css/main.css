@@ -1,45 +1,80 @@
 body {
-  margin: 0;
-  padding: 0;
+  background-image: url("pyszne.png");
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  background-color: #F68920;
+}
+
+body .wrapper {
+  background: #ff751a;
+  width: 65%;
+  margin: 8% auto;
+  padding: 50px 0;
+  text-align: center;
+  -webkit-box-shadow: 0px 10px 40px black;
+          box-shadow: 0px 10px 40px black;
+}
+
+body .wrapper .asset {
+  margin: 30px auto;
+  width: 80%;
+  position: relative;
+}
+
+body .wrapper .asset .asset_add {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 24px;
+  font-family: sans-serif;
+  margin: 30px auto;
+  width: 100%;
+  position: relative;
+  border: 1px solid black;
+  text-align: left;
+}
+
+body .wrapper .asset .asset_add input[name=hehe] {
+  margin-top: 10px;
+  width: 10%;
+  height: 30px;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#994d00), to(#996633));
+  background: linear-gradient(to right, #994d00, #996633);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-body .wrapper {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  min-height: 100%;
-  background-color: lightsalmon;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body .wrapper .asset .asset_add input[name=hehe] {
+  margin-top: 10px;
+  width: 10%;
+  height: 30px;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#994d00), to(#996633));
+  background: linear-gradient(to right, #994d00, #996633);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-body .wrapper .asset {
-  border: 1px solid darkorange;
-  padding: 2em;
-  width: 70vw;
-  margin-top: 2em;
-  border-radius: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+body .wrapper .asset .asset_show {
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid black;
 }
 
-body .wrapper .asset .asset_add .add_status {
-  color: green;
-}
-
-body .wrapper .asset .asset_add .fail {
-  color: red;
+body .wrapper .asset .asset_show .take input[name=hehe] {
+  margin-top: 10px;
+  width: 10%;
+  height: 30px;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#994d00), to(#996633));
+  background: linear-gradient(to right, #994d00, #996633);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body .wrapper .asset .asset_show table {

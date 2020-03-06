@@ -1,62 +1,62 @@
 body{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-    .wrapper{
-        width: 100vw;
-        height: 100vh;
-        background-color: lightsalmon;
-    }
-    .wrapper_login{
-        box-sizing: border-box;
-        position: absolute;
-        top: calc(40% - 12.5vh);
-        left: calc(50% - 15vw);
-        width: 30vw;
-        height: 25vh;
-        border: 2px solid black;
-        border-radius: 15px;
-        padding: 20px 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        .wrapper_login_login, .wrapper_login_password, .wrapper_login_submit{
-            display: block;
-
-        }
-        .wrapper_login_login{
-            margin-top: 10%;
-        }
-        .wrapper_login_submit{
-            margin-top: 10%;
-            display: inline-block;
-        }
-        .input-box{
-            
-            width:40%;
+    background-image : url("pyszne.png");
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    background-color::	#F68920;
+    form{
+        background:  #ff751a;
+        width: 500px;
+        margin: 8% auto;
+        padding: 50px 0;
+        text-align: center;
+        box-shadow: 0px 10px 40px rgb(0,0,0);
+        border-radius: 25px;
+        
+        .wrapper_login{
+            margin:30px auto;
+            width:80%;
             position: relative;
+            box-shadow: 0px 8px 10px -10px rgb(0,0,0);
             input{
                 width:100%;
                 height:40px;
-                position: absolute;
-                padding-left:5px;
-                box-sizing: border-box;
+                border: none;
+                background: #efefef;
+                padding-left:50px;
+                box-sizing:border-box;
             }
             span{
-                width:max-content;
-                i{
-                    
-                    width:40px;
-                    height:40px;
-                    background-color:lightblue;
-                    font-size:40px;
-                    
-                    box-sizing: border-box;
-                    
-                }
+                position: absolute;
+                font-size:20px;
+                left: 0;
+                top: 0;
+                height: 40px;
+                width: 40px;
+                background: linear-gradient(to right, #994d00,#996633);
             }
+            span .fa{
+                padding:10px;
+                color: #fff;
+            }
+        }
+        .wrapper_login_submit{
+            input{
+            width: 130px;
+            height:40px;
+            margin-left: 36%;
+            display: block;
+            color: #fff;
+            border: 0;
+            font-size:16px;
+            outline:none;
+            background: linear-gradient(to right, #994d00,#996633);
+            cursor: pointer;
+            }
+        }
+        a{
+            text-decoration: none;
         }
         
     }
+    
 }

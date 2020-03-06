@@ -2,7 +2,7 @@
         <p>Date: <input type="date" name="date" id="data" min="<?php echo date("Y-m-d");  ?>"/></p>
         <p>Start Time: <input type="time" name="times" step="1" min="11:00:00" max="22:00:00"/></p>
         <p>End Time: <input type="time" name="timee" step="1"min="11:00:00" max="22:00:00" /></p>
-        <p><input type="submit" value="wyslij"/></p>
+        <p><input type="submit" value="wyslij" name="dod"/></p>
         <?php
             if(isset($_SESSION['add_status'])){
                 if($_SESSION['add_status']){
