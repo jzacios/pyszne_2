@@ -14,38 +14,40 @@
     <body>
         <section class="wrapper">
             <section class="asset">
-                <section class="asset_add">
-                    <?php
-                        require_once("assets/user.php");
-                        ?>
-                </section>
-            </section>
-            <section class="asset">
-                <section class="asset_add">
-                    <?php
-                        require_once("assets/dodaj.php");
-                        ?>
-                </section>
-            </section>
-            <section class="asset">
-                <section class="asset_show">
-                    <?php
-                        require_once("assets/wyswietl.php");
-                        ?>
-                </section>
-            </section>
-            <section class="asset">
-                <section class="asset_show">
-                    <?php
-                        require_once("assets/DodanePrzezCb.php");
-                        ?>
-                </section>
-            </section>
-            <section>
-                <form method="POST" action="skrypty/take.php" id="form_submit" style="display: none">
-                    <input type="text" name="id" id="form" value="" >
-                    <p name="yhym"></p>
-                </form>
+                        <section class="asset_add">
+                            <?php
+                                require_once("assets/user.php");
+                                ?>
+                        </section>
+                    </section>
+                    <section class="asset">
+                        <section class="asset_add">
+                            <?php
+                                require_once("assets/dodaj.php");
+                                ?>
+                        </section>
+                    </section>
+                    <section class="asset">
+                        <section class="asset_show">
+                            <?php
+                                require_once("assets/wyswietl.php");
+                                ?>
+                        </section>
+                    </section>
+                    <section class="asset">
+                        <section class="asset_show">
+                            <?php
+                                require_once("assets/DodanePrzezCb.php");
+                                ?>
+                        </section>
+                    </section>
+                    <section>
+                        <form method="POST" action="skrypty/take.php" id="form_submit" style="display: none">
+                            <input type="text" name="id" id="form" value="" >
+                            <p name="yhym"></p>
+                        </form>
+                    </section>
+                
             </section>
             <script src="skrypty/take.js"></script>
 
