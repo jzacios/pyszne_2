@@ -1,5 +1,5 @@
    <?php
-        echo "Dodaj zmiane";
+        echo "Dodaj zmiane:";
 
     ?>  
    <form method="POST" action="../skrypty/send.php">
