@@ -1,5 +1,4 @@
 body{
-    background-image : url("pyszne.png");
     background-repeat: no-repeat;
     font-family: sans-serif;
     background-color:	#F68920;
@@ -26,6 +25,8 @@ body{
                     position: relative;
                     border: 1px solid black;
                     text-align: left;
+                    border: 4px solid #bd5815;
+                    border-radius: 25px;
                     
                 }
                 .asset_show{
@@ -35,6 +36,8 @@ body{
                     padding:10px;
                     box-sizing: border-box;
                     border: 1px solid black;
+                    border: 4px solid #bd5815;
+                    border-radius: 25px;
                     
                     }
                     table{
@@ -42,7 +45,9 @@ body{
                         border-collapse: collapse;
                         
                         .row{
-                            border: 1px solid black;
+                            border: 2px solid #72350d;
+                            
+
                             
                             .column{
                                 border: 1px solid black;
