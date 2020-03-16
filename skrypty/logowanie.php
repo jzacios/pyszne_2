@@ -29,8 +29,6 @@
                             if($_SESSION['login_status']==0){
                                 echo "Niepoprawne dane logowania";
                             }
-                        echo($_SESSION['login_status']);
-                        // unset($_SESSION['login_status']);
                     }
                     ?>
                 </section>
