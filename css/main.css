@@ -1,5 +1,4 @@
 body {
-  background-image: url("pyszne.png");
   background-repeat: no-repeat;
   font-family: sans-serif;
   background-color: #F68920;
@@ -13,14 +12,13 @@ body .wrapper {
   text-align: center;
   -webkit-box-shadow: 0px 10px 40px black;
           box-shadow: 0px 10px 40px black;
-          border-radius: 25px;
+  border-radius: 25px;
 }
 
 body .wrapper .asset {
-  margin: 20px auto;
+  margin: 30px auto;
   width: 80%;
   position: relative;
-  
 }
 
 body .wrapper .asset .asset_add {
@@ -32,72 +30,30 @@ body .wrapper .asset .asset_add {
   margin: 30px auto;
   width: 100%;
   position: relative;
-  border: 2px solid #994d00;
-  border-radius: 25px;
+  border: 1px solid black;
   text-align: left;
 }
 
 body .wrapper .asset .asset_show {
+  font-size: 24px;
+  font-family: sans-serif;
+  text-align: left;
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 24px;
-  font-family: sans-serif;
-  margin: 30px auto;
-  width: 100%;
-  position: relative;
-  border: 2px solid #994d00;
-  border-radius: 25px;
-  text-align: left;
+  border: 1px solid black;
 }
 
-body .wrapper .asset .asset_add input[name=hehe] {
-  margin-top: 10px;
-  width: 10%;
-  height: 30px;
-  background: -webkit-gradient(linear, left top, right top, from(#994d00), to(#996633));
-  background: linear-gradient(to right, #994d00, #996633);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-          border-radius: 13px;
-  color:White;
-}
-
-body .wrapper .asset .asset_add input[name=hehe] {
-  margin-top: 10px;
-  width: 10%;
-  height: 30px;
-  border: none;
-  background: -webkit-gradient(linear, left top, right top, from(#994d00), to(#996633));
-  background: linear-gradient(to right, #994d00, #996633);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-
-
-body .wrapper .asset .asset_show .take input[name=hehe] {
-  margin-top: 10px;
-  width: 10%;
-  height: 30px;
-  border: none;
-  background: -webkit-gradient(linear, left top, right top, from(#994d00), to(#996633));
-  background: linear-gradient(to right, #994d00, #996633);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body .wrapper .asset .asset_show table {
+body .wrapper .asset table {
   border: 1px solid black;
   border-collapse: collapse;
-  margin:10px;
 }
 
-body .wrapper .asset .asset_show table .row {
+body .wrapper .asset table .row {
   border: 1px solid black;
 }
 
-body .wrapper .asset .asset_show table .row .column {
+body .wrapper .asset table .row .column {
   border: 1px solid black;
   padding: 0.2em;
 }
